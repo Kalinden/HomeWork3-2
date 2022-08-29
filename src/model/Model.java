@@ -10,10 +10,11 @@ public class Model {
        System.out.printf("Name : %s\nmodelname : %s\ncolor : %s\ndate : %d\n",name,modelName,color,date);
    }
    public static class Specs {
-      String type = "Coupe";
+      public static final int HP = 152;
+      public static String type = "Coupe";
+      public static double engine = 2.4;
       String transmission = "AT";
-      double engine = 2.4;
-      int HP = 152;
+
       public void SpecInfo(){
          System.out.printf("Class: %s\nTransmission: %s\nEngine: %f\nHP: %d\n",type,transmission,engine,HP);
       }

@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Regression suite">
     <test name="RegressionTest">
-        <groups>
-            <run>
-                <include name = "Positive" />
-            </run>
-        </groups>
+       <groups>
+           <run>
+               <include name = "negative" />
+           </run>
+       </groups>
         <classes>
-        <class name="FirsTest"></class>
+            <class name="FirsTest"></class>
         </classes>
-    </test>
+            </test>
 </suite>
